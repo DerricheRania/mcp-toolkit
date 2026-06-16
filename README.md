@@ -33,7 +33,7 @@ Returns real weather data as text
 AI reads it and answers you naturally
 ```
 
-The MCP server is a Node.js process. The AI client launches it automatically and communicates through **stdin/stdout using JSON-RPC**. The AI never touches the API directly — it just calls your tool and reads the result.
+The MCP server is a Node.js process. The AI client launches it automatically and communicates through **stdin/stdout using JSON-RPC**. The AI never touches the API directly, it just calls your tool and reads the result.
 
 ---
 
