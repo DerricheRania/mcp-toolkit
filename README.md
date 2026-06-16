@@ -204,7 +204,7 @@ Save → fully quit Claude Desktop → reopen → look for the 🔧 icon in the 
 
 Want to give your MCP server more tools? Here's exactly how to do it, using a **currency converter** as an example.
 
-### Step 1 — Add the tool in `server.js`
+### Step 1 : Add the tool in `server.js`
 
 Open `server.js` and add a new `server.tool()` block after the existing `get_weather` tool:
 
@@ -236,7 +236,7 @@ server.tool(
 );
 ```
 
-### Step 2 — Test it in the terminal
+### Step 2 : Test it in the terminal
 
 Add a test case to `test.js` and run:
 
@@ -244,9 +244,9 @@ Add a test case to `test.js` and run:
 node test.js
 ```
 
-### Step 3 — Restart the Inspector or Claude Desktop
+### Step 3 : Restart the Inspector or Claude Desktop
 
-The new tool appears automatically — no rebuild needed.
+The new tool appears automatically, no rebuild needed.
 
 ---
 
