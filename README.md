@@ -127,7 +127,7 @@ npm install
 
 ### Step 2 : Test the tool directly in the terminal
 
-This runs the weather logic directly and prints real results — no AI, no inspector needed:
+This runs the weather logic directly and prints real results, no AI, no inspector needed:
 
 ```bash
 node test.js
@@ -141,15 +141,15 @@ node test.js
 
 **Algiers, Algeria:**
 
-![Terminal test : Algiers](screenshots/test-algiers.png)
+![Terminal test : Algiers](test-algiers.png)
 
 **Paris, France:**
 
-![Terminal test : Paris](screenshots/test-paris.png)
+![Terminal test : Paris](test-paris.png)
 
 **New York, USA (imperial units):**
 
-![Terminal test : New York](screenshots/test-newyork.png)
+![Terminal test : New York](test-newyork.png)
 
 ---
 
@@ -167,11 +167,11 @@ Open `http://localhost:5173` in your browser → click **Connect** → click **T
 
 **Inspector tool form:**
 
-![MCP Inspector : tool form](screenshots/inspector-tool.png)
+![MCP Inspector : tool form](inspector-tool.png)
 
 **Result for Tokyo, Japan:**
 
-![MCP Inspector : Tokyo result](screenshots/inspector-result-tokyo.png)
+![MCP Inspector : Tokyo result](inspector-result-tokyo.png)
 
 ---
 
