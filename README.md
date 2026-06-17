@@ -37,7 +37,7 @@ The MCP server is a Node.js process. The AI client launches it automatically and
 
 ---
 
-## 🛠️ This Project — Two Tools
+## 🛠️ This Project : Two Tools
 
 ### Tool 1: `get_weather`
 
@@ -50,13 +50,13 @@ The MCP server is a Node.js process. The AI client launches it automatically and
 
 The tool makes two API calls under the hood:
 
-**Step 1 — Convert city name to coordinates:**
+**Step 1 : Convert city name to coordinates:**
 ```
 GET https://geocoding-api.open-meteo.com/v1/search?name=Algiers
 → Returns: { latitude: 36.73, longitude: 3.08, country: "Algeria" }
 ```
 
-**Step 2 — Fetch weather using coordinates:**
+**Step 2 : Fetch weather using coordinates:**
 ```
 GET https://api.open-meteo.com/v1/forecast?latitude=36.73&longitude=3.08
        &current=temperature_2m,humidity,wind_speed,weather_code
